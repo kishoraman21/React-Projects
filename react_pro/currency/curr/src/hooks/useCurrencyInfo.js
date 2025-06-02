@@ -5,10 +5,10 @@ function useCurrencyInfo(currency){
     const [data, setData] = useState({})
     useEffect( ()=>{
 
-        fetch(`https://anyapi.io/api/v1/exchange/convert?apiKey=f317fjck7qgbg7hdi8o87gg93305ou9gon7pf3hdg1jtotuekl48`)
+        fetch(`https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/usd.json`)
             .then((res)=> res.json())
             .then((res)=> setData(res[currency])) 
-            console.log(data);
+            console.log(data); 
             
 
     } , [currency])
