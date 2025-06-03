@@ -31,10 +31,10 @@ function InputBox({
           value={amount}
           min={1}
           onChange={(e) => {
-            console.log(
-              `amount is ${amount} and inp is ${e.target.value} type=${typeof e
-                .target.value}`
-            );
+            // console.log(
+            //   `amount is ${amount} and inp is ${e.target.value} type=${typeof e
+            //     .target.value}`
+            // );
 
             if (Number(amount) == 0 && Number(e.target.value) == 0) {
               console.log("inside if");
