@@ -77,7 +77,10 @@ export default function Footer() {
                         </a>
                         . All Rights Reserved.
                     </span>
-                    //logos 
+
+                    {/* logos  */}
+
+                    
                     <div className="flex mt-4 space-x-5 sm:justify-center sm:mt-0">
                         <Link to="#" className="text-gray-500 hover:text-gray-900">
                             <svg
